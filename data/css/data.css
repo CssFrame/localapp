@@ -1,0 +1,349 @@
+* {
+
+}
+
+.theme-dark {
+    background-color: rgb(24, 27, 34);
+    color: rgb(255, 255, 255);
+}
+
+.theme-light {
+    background-color: rgb(241, 234, 234);
+    color: rgb(14, 14, 14);
+}
+
+/*
+*
+*
+*
+*                                                                               BUTTONS
+*
+*
+*
+*/
+
+.btn {
+    color: rgb(255, 255, 255);
+
+    border: none;
+    border-radius: 7px;
+
+    padding: 5px;
+    margin: 5px;
+
+    height: auto;
+    width: auto;
+
+    cursor: pointer;
+}
+
+.btn-green {
+    background-color: green;
+}
+
+.btn-light-green {
+    background-color: rgb(83, 218, 83);
+}
+
+.btn-red {
+    background-color: red;
+}
+
+.btn-yellow {
+    background-color: yellow;
+}
+
+.btn-yellowgreen {
+    background-color: yellowgreen;
+}
+
+.btn-blue {
+    background-color: blue;
+}
+
+.btn-light-blue {
+    background-color: rgb(138, 168, 231);
+}
+
+.btn-dark-blue {
+    background-color: rgb(25, 44, 95);
+}
+
+.btn-violet {
+    background-color: blueviolet;
+}
+
+.btn-purple {
+    background-color: purple;
+}
+
+.btn-pink {
+    background-color: pink;
+}
+
+.btn-dark-pink {
+    background-color: rgb(255, 82, 111);
+}
+
+.btn-black {
+    background-color: black;
+}
+
+.btn-white {
+    background-color: white;
+}
+
+.btn-light {
+    background-color: rgb(180, 180, 180);
+}
+
+.btn-dark {
+    background-color: rgb(32, 40, 49);
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - OUTLINED BUTTONS - - - - - - - - - - - - - - - - - */
+
+.btn-outline {
+    background-color: transparent;
+
+    border: solid 2px;
+    border-radius: 7px;
+
+    color: rgb(255, 255, 255);
+
+    padding: 5px;
+    margin: 5px;
+
+    height: auto;
+    width: auto;
+
+    cursor: pointer;
+}
+
+
+.ol-green {
+    border-color: green;
+}
+
+.ol-lightgreen {
+    border-color: rgb(83, 218, 83);
+}
+
+.ol-red {
+    border-color: red;
+}
+
+.ol-yellow {
+    border-color: yellow;
+}
+
+.ol-yellowgreen {
+    border-color: yellowgreen;
+}
+
+.ol-blue {
+    border-color: blue;
+}
+
+.ol-lightblue {
+    border-color: rgb(138, 168, 231);
+}
+
+.ol-darkblue {
+    border-color: rgb(25, 44, 95);
+}
+
+.ol-violet {
+    border-color: blueviolet;
+}
+
+.ol-purple {
+    border-color: purple;
+}
+
+.ol-pink {
+    border-color: pink;
+}
+
+.ol-darkpink {
+    border-color: rgb(255, 82, 111);
+}
+
+.ol-black {
+    border-color: black;
+}
+
+.ol-white {
+    border-color: white;
+}
+
+.ol-light {
+    border-color: rgb(180, 180, 180);
+}
+
+.ol-dark {
+    border-color: rgb(32, 40, 49);
+}
+
+
+/*
+*
+*
+*
+*                                                                               LINKS
+*
+*
+*
+*/
+
+.link {
+    text-decoration: underline;
+
+    cursor: pointer;
+}
+
+.link-main {
+    color: rgb(35, 117, 240);
+}
+.link-sub {
+    color: rgb(95, 95, 95);
+}
+.link-important {
+    color: rgb(255, 227, 66);
+}
+.link-disabled {
+    color: grey;
+
+    cursor: not-allowed;
+}
+
+/*
+*
+*
+*
+*                                                                               COLORS
+*
+*
+*
+*/
+
+.clr {
+    text-decoration: none;
+}
+
+/* WHITE - BLACK */
+
+.clr-white {
+    color: white;
+    
+}
+
+.clr-grey {
+    color: grey;
+    
+}
+
+.clr-black {
+    color: black;
+    
+}
+
+
+/* BLUE */
+.clr-lightblue {
+    color: rgb(111, 111, 255);
+    
+}
+.clr-darkblue {
+    color: rgb(0, 0, 126);
+    
+}
+.clr-blue {
+    color: blue;
+    
+}
+
+/* RED */
+.clr-lightred {
+    color: rgb(255, 82, 82);
+    
+}
+.clr-darkred {
+    color: rgb(107, 0, 0);
+    
+}
+.clr-red {
+    color: red;
+    
+}
+
+/* GREEN */
+.clr-lightgreen {
+    color: rgb(103, 192, 103);
+    
+}
+.clr-darkgreen {
+    color: rgb(0, 83, 0);
+    
+}
+.clr-green {
+    color: green;
+    
+}
+
+/* PINK */
+.clr-lightpink {
+    color: rgb(243, 116, 226);
+    
+}
+.clr-darkpink {
+    color: rgb(126, 32, 113);
+    
+}
+.clr-pink {
+    color: rgb(240, 58, 215);
+    
+}
+
+/* PURPLE */
+.clr-lightpurple {
+    color: rgb(202, 78, 202);
+    
+}
+.clr-darkpurple {
+    color: rgb(92, 0, 92);
+    
+}
+.clr-purple {
+    color: rgb(161, 1, 161);
+    
+}
+
+/* YELLOW */
+.clr-lightyellow {
+    color: rgb(255, 255, 111);
+    
+}
+.clr-darkyellow {
+    color: rgb(170, 170, 0);
+    
+}
+.clr-yellow {
+    color: yellow;
+    
+}
+
+/* ORANGE */
+.clr-lightorange {
+    color: rgb(255, 194, 81);
+    
+}
+.clr-darkorange {
+    color: rgb(134, 87, 0);
+    
+}
+.clr-orange {
+    color: orange;
+    
+}
