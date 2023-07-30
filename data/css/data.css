@@ -1,5 +1,6 @@
 * {
-
+    background-color: rgb(24, 27, 34);
+    color:white;
 }
 
 .theme-dark {
@@ -11,6 +12,32 @@
     background-color: rgb(241, 234, 234);
     color: rgb(14, 14, 14);
 }
+
+
+/*
+*
+*
+*
+*                                                                               BACKGROUNDS
+*
+*
+*
+*/
+
+.bg-darkglass {
+    background-color: rgba(24, 27, 34, 0.200);
+
+    padding: 5px;
+    margin: 5px;
+}
+
+.bg-lightglass {
+    background-color: rgba(255, 255, 255, 0.200);
+
+    padding: 5px;
+    margin: 5px;
+}
+
 
 /*
 *
